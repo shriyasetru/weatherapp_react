@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #75b4e3; /* Light Blue */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #8fe0ff; /* Sky Blue */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #31255a; /* Dark Purple */
+}
+
+.logo {
+  width: 50px; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 5px; /* Add some spacing between logo and text */
+  border-radius: 100%;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.searchbar{
+  height:50px;
+  width: 350px;
+  font-size: 16px;
+  padding: 5px;
+  margin-inline: 10px;
+  outline:none;
+  border:none;
+  background: none;
+  border-bottom: 1px solid black;
+}
+.searchbtn{
+  height: 50px;
+  width: 100px;
+  border-radius: 30px;
+  background: none;
+  border: 2px solid #5c8aac;
+  font-size: 16px;
+  color:rgb(53, 114, 170);
+  transition: all ease-in-out 0.1s;
+}
+.searchbtn:hover{
+  background: #5c8aac;
+  color: white;
+  
+}
+#search-bar {
+  width: 70%;
+  padding: 12px;
+  border-radius: 20px;
+  border: 2px solid #54416d; /* Dark Purple */
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+#search-button {
+  padding: 12px 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #54416d; /* Dark Purple */
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#search-button:hover {
+  background-color: #2b235a; /* Darker Purple */
+}
+
+.weather-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.location {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #31255a; /* Dark Purple */
+}
+
+.icon {
+  font-size: 80px;
+  margin-bottom: 10px;
+}
+
+.temperature {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #31255a; /* Dark Purple */
+}
+
+.description {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #555555;
+}
+
+.humidity,
+.wind {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #777777;
+}
